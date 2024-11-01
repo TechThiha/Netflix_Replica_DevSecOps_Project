@@ -1,0 +1,10 @@
+region            = "ap-southeast-1"
+security_group_id = "sg-0aebfc2f996e17354"
+key_name          = "net_key"
+ami_id            = "ami-047126e50991d067b" # Ubuntu AMDx64
+storage           = 30                      # Size in GB
+instance_type     = "t2.large"
+volume_type       = "gp2"
+file_path         = "../modules/user_data/Jenkins.sh"
+instance_name     = "Netflix_Henry"
+environment       = "test"

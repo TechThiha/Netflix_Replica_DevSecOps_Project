@@ -1,0 +1,7 @@
+resource_group_name = "HenOps"
+ssh_key_name        = "Demo_Az"
+node_count          = "4"
+username            = "henops"
+node_pool_name      = "agentpool"
+vm_size             = "Standard_D2_v2"
+cluster_prefix      = "cluster"

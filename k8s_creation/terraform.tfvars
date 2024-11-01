@@ -1,0 +1,9 @@
+security_group_id = "sg-0aebfc2f996e17354"
+key_name          = "net_key"
+ami_id            = "ami-047126e50991d067b"
+storage           = 30
+instance_type     = "t2.large"
+volume_type       = "gp2"
+file_path         = "./k8x.sh"
+instance_name     = "Netflix_Henry"
+environment       = "k8s"            
